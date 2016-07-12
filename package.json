@@ -1,0 +1,23 @@
+{
+  "name": "poc-selective-disclosure",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "./node_modules/.bin/browserify -t [ babelify --presets [ react ] ] -e src/main.js -o public/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "bluebird": "^3.4.0",
+    "browserify": "^13.0.1",
+    "eth-lightwallet": "^2.3.3",
+    "ipfs-api": "2.3.2",
+    "ipfs-js": "0.0.9",
+    "prompt": "^1.0.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
