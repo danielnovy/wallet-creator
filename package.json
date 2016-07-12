@@ -1,13 +1,11 @@
 {
-  "name": "poc-selective-disclosure",
-  "version": "0.0.1",
+  "name": "walletcreator",
+  "version": "1.0.0",
   "description": "",
   "main": "src/main.js",
-  "scripts": {
-    "build": "./node_modules/.bin/browserify -t [ babelify --presets [ react ] ] -e src/main.js -o public/main.js"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "Daniel Novy",
+  "license": "MIT",
+  "repository": "https://github.com/danielnovy/wallet-creator",
   "dependencies": {
     "babel-preset-react": "^6.5.0",
     "babelify": "^7.3.0",
